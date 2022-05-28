@@ -166,31 +166,113 @@
 // }
 
 // task11
-var number1 = +prompt("Enter 1st number")
-var number2 = +prompt("Enter 2nd number")
-var operation = prompt("Enter operator to perform calculation")
-var result
+// var number1 = +prompt("Enter 1st number")
+// var number2 = +prompt("Enter 2nd number")
+// var operation = prompt("Enter operator to perform calculation")
+// var result
 
-if(operation === "+"){
-    result = number1 + number2
-    alert(number1 + " + " + number2 + " = " + result)
-}
-if(operation === "-"){
-    result = number1 - number2
-    alert(number1 + " - " + number2 + " = " + result)
-}
-if(operation === "*"){
-    result = number1 * number2
-    alert(number1 + " x " + number2 + " = " + result)
-}
-if(operation === "/"){
-    result = number1 / number2
-    alert(number1 + " / " + number2 + " = " + result)
-}
-if(operation === "%"){
-    result = number1 % number2
-    alert(number1 + " % " + number2 + " = " + result)
-}
+// if(operation === "+"){
+//     result = number1 + number2
+//     alert(number1 + " + " + number2 + " = " + result)
+// }
+// if(operation === "-"){
+//     result = number1 - number2
+//     alert(number1 + " - " + number2 + " = " + result)
+// }
+// if(operation === "*"){
+//     result = number1 * number2
+//     alert(number1 + " x " + number2 + " = " + result)
+// }
+// if(operation === "/"){
+//     result = number1 / number2
+//     alert(number1 + " / " + number2 + " = " + result)
+// }
+// if(operation === "%"){
+//     result = number1 % number2
+//     alert(number1 + " % " + number2 + " = " + result)
+// }
 
 // ---------------------CHAPTER 12-13-------------------------
 
+// task01
+// var character = prompt("Enter character")
+// var result = character.charCodeAt(0)
+
+// if ((result >= 65 && result <= 90) || (character >= 65 && character <= 90)) {
+//   alert("Given input is uppercase letter");
+// } else if ((result >= 97 && result <= 122) || (character >= 97 && character <= 122)) {
+//   alert("Given input is lowercase letter");
+// } else if ((result >= 48 && result <= 57) || (character >= 48 && character <= 57)) {
+//   alert("Given input is number");
+// } else {
+//   alert("Given input in Symbol");
+// }
+
+
+// task02
+// var num1 = prompt("Enter 1st number")
+// var num2 = prompt("Enter 2nd number")
+
+// if(num1 > num2){
+//     console.log(num1 + " is larger than " + num2)
+// }
+// else if(num1 < num2){
+//     console.log(num1 + " is smaller than " + num2)
+// }
+// else if(num1 === num2){
+//     console.log(num1 + " is equal to " + num2)
+// }
+
+// task03
+// var number = prompt("Enter any number");
+
+// if (number >= 1) {
+//   console.log("Number is positive");
+// } else if (number < 0) {
+//   console.log("Number is negative");
+// } else {
+//   console.log("Number is zero");
+// }
+
+// task04
+// var char = prompt("Enter a character")
+
+// if(char === "a" || char === "e" || char === "i" || char === "o" || char === "u"){
+//     console.log(true)
+// }else{
+//     console.log(false)
+// }
+
+// task05
+// var password = "hamzahabib12345"
+// var userPassword = prompt("Enter your password")
+
+// if(userPassword === ""){
+//     alert("Please enter your password")
+// }else if(userPassword === password){
+//     alert("Correct! The password you entered matches the original password.")
+// }else{
+//     alert("Incorrect password")
+// }
+
+// task06
+// var greetings
+// var hour = 13
+// if(hour < 18){
+//     greetings = "Good day"
+// }else{
+//     greetings = "Good Evening"
+// }
+
+// task07
+var time = prompt("Enter time")
+
+if(time >= 0000 && time < 1200){
+    alert("Good Morning")
+}else if(time >= 1200 && time <1700){
+    alert("Good Afternoon")
+}else if (time >= 1700 && time < 2100){
+    alert("Good Evening")
+}else if (time >= 2100 && time <=2359){
+    alert("Good night")
+}
