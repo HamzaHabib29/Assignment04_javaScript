@@ -265,14 +265,146 @@
 // }
 
 // task07
-var time = prompt("Enter time")
+// var time = prompt("Enter time")
 
-if(time >= 0000 && time < 1200){
-    alert("Good Morning")
-}else if(time >= 1200 && time <1700){
-    alert("Good Afternoon")
-}else if (time >= 1700 && time < 2100){
-    alert("Good Evening")
-}else if (time >= 2100 && time <=2359){
-    alert("Good night")
-}
+// if(time >= 0000 && time < 1200){
+//     alert("Good Morning")
+// }else if(time >= 1200 && time <1700){
+//     alert("Good Afternoon")
+// }else if (time >= 1700 && time < 2100){
+//     alert("Good Evening")
+// }else if (time >= 2100 && time <=2359){
+//     alert("Good night")
+// }
+
+// ---------------------CHAPTER 14-16---------------------
+
+// task01
+// var studNames = []
+
+// task02
+// var studNames = new Array()
+
+// task03
+// var string = ["Hamza", "Habib", "Nehal", "Saad"]
+
+// task04
+// var numbers =[23, 65, 75, 95]
+
+// task05
+// var bool = [true, false]
+
+// task06
+// var mixArray = ["Hamza", 765, "Habib", true]
+
+// // task07
+// var educationDegrees = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil", "PhD"]
+
+// document.write("<h1>Qualifications:</h1>")
+// document.write("1) " + educationDegrees[0] + "<br>")
+// document.write("2) " + educationDegrees[1] + "<br>")
+// document.write("3) " + educationDegrees[2] + "<br>")
+// document.write("4) " + educationDegrees[3] + "<br>")
+// document.write("5) " + educationDegrees[4] + "<br>")
+// document.write("6) " + educationDegrees[5] + "<br>")
+// document.write("7) " + educationDegrees[6] + "<br>")
+// document.write("8) " + educationDegrees[7] )
+
+// task08
+// var studNames = ["Hamza", "Ahmer", "Madni"]
+// var score = [480, 320, 230]
+
+// document.write("Score of " + studNames[0] + " is " + score[0] + ". " + "Percentage: " + (score[0]/500)*100 + "% <br>" )
+// document.write("Score of " + studNames[1] + " is " + score[1] + ". " + "Percentage: " + (score[1]/500)*100 + "% <br>" )
+// document.write("Score of " + studNames[2] + " is " + score[2] + ". " + "Percentage: " + (score[2]/500)*100 + "%" )
+
+// task09
+var colorNames = ["blue", "green", "yellow"]
+// document.write(colorNames + "<br>")
+
+// // a
+// colorNames.unshift(prompt("Enter color you wants to add in beginning of list"))
+// document.write(colorNames + "<br>")
+// colorNames.push(prompt("Enter color you wants to add in end of list"))
+// document.write(colorNames + "<br>")
+
+// //b
+// colorNames.unshift("purple", "hotpink")
+// document.write(colorNames + "<br>")
+
+// // d 
+// colorNames.shift()
+// document.write(colorNames + "<br>")
+
+// // e
+// colorNames.pop()
+// document.write(colorNames + "<br>")
+
+// f
+// var index = +prompt("At which index do you want to enter color")
+// var color = prompt("What color do you wants to add on index" + index)
+
+// colorNames.splice(index, 0, color)
+// document.write(colorNames + "<br>")
+
+
+
+// g 
+// var index = +prompt("At which index do you want to delete color")
+// var range = +prompt("How many color you wants to delete")
+// document.write(colorNames)
+// colorNames.splice(index, range)
+
+// document.write(colorNames)
+
+// task10
+// var std_scrore = [320, 230, 480, 120]
+
+// document.write(std_scrore + "<br>")
+// document.write(std_scrore.sort())
+
+// task11
+// var cityName = ["Karachi", "Lahore", "islamabad", "Quetta", "Peshawer"]
+// var selectedCities = cityName.slice(1,4)
+// document.write(selectedCities)
+
+// task12
+// var arr = ["This", "is", "my", "cat"];
+// document.write("Array:<br>" + arr + "<br>")
+// document.write("String:<br>" + arr.join(" "))
+
+// task13
+// var array = []
+// array.unshift("keyboard", "mouse", "printer", "monitor")
+// document.write("Devices:<br>"+array + "<br>")
+// document.write("Out:<br>"+array.shift() + "<br>")
+// document.write("Out:<br>"+array.shift() + "<br>")
+// document.write("Out:<br>"+array.shift() + "<br>")
+// document.write("Out:<br>"+array.shift() + "<br>")
+
+// task14
+// var array = []
+// array.push("keyboard", "mouse", "printer", "monitor")
+// document.write("Devices:<br>"+array + "<br>")
+// document.write("Out:<br>"+array.pop() + "<br>")
+// document.write("Out:<br>"+array.pop() + "<br>")
+// document.write("Out:<br>"+array.pop() + "<br>")
+// document.write("Out:<br>"+array.pop() + "<br>")
+
+// task15
+var phoneManufacturers = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"]
+document.write("<select> <option>"+ phoneManufacturers[0] + "</option>")
+document.write("<option>"+ phoneManufacturers[1] + "</option>")
+document.write("<option>"+ phoneManufacturers[2] + "</option>")
+document.write("<option>"+ phoneManufacturers[3] + "</option>")
+document.write("<option>"+ phoneManufacturers[4] + "</option>")
+document.write("<option>"+ phoneManufacturers[5] + "</option> </select>")
+
+
+
+
+
+
+
+
+
